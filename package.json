@@ -8,7 +8,7 @@
     "eslint": "eslint --color",
     "prettier": "prettier --check \"src/**/*.{ts,tsx}\"",
     "fmt": "prettier --write \"src/**/*.{ts,tsx}\"",
-    "prod": "webpack --mode production",
+    "build": "webpack --mode production",
     "dev": "webpack --mode development --watch",
     "pack": "kintone-plugin-packer --ppk private.ppk src",
     "customize-upload": "customize-uploader.cmd",
